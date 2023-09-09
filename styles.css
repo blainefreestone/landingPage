@@ -54,6 +54,37 @@ body {
     font-weight: bold;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .cards {
+    display: flex;
+}
+
+.content .cards .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .random-information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content .random-information .cards {
+    font-size: 18px;
+    font-weight: normal;
+    color: #1F2937;
+}
+
+.card img {
+    width: 100px;
+    min-width: 100px;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -62,5 +93,6 @@ ul {
 
 img {
     width: 300px;
-    height: auto;
+    min-width: 300px;
+    align-self: center;
 }
