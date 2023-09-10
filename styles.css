@@ -57,15 +57,25 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .content .cards {
     display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .content .cards .card {
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 8px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    max-width: 150px;
 }
 
 .content .random-information {
@@ -81,8 +91,8 @@ body {
 }
 
 .card img {
-    width: 100px;
-    min-width: 100px;
+    object-fit: contain;
+    max-height: 120px;
 }
 
 ul {
