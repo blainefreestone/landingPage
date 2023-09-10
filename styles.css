@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 700px;
     padding: 0 100px;
     color: #E5E7EB;
     background-color: #1F2937;
@@ -62,8 +61,9 @@ body {
 
 .content .cards {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 24px;
 }
 
 .content .cards .card {
@@ -79,9 +79,13 @@ body {
 }
 
 .content .random-information {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 32px 100px 96px 100px;
 }
 
 .content .random-information .cards {
