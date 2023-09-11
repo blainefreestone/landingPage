@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
 }
 
 .header {
@@ -61,6 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .content .cards {
@@ -115,7 +115,10 @@ body {
 }
 
 .content .bottom {
-    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
 }
 
 .content .bottom .sign-up {
